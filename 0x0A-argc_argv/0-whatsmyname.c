@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - print name and new line
+ * Return: Always 0
+ * @argv: argument vector
+ * @argc: argument count
+ */
+
 int main(int argc, char *argv[])
 {
 	int i;
@@ -9,5 +16,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
-	return 0;
+	return (0);
 }
