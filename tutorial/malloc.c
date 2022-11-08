@@ -22,7 +22,7 @@ int main(void)
 	str[10] = 'o';
 	str[11] = 'f';
 	str[12] = ' ';
-	str[13] = "shit";
+	str[13] = 's';
 	str[14] = '\0';
 	printf("%s\n", str);
 	return (0);
